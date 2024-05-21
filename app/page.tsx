@@ -1,4 +1,6 @@
+import Grid from '@/components/Grid'
 import Hero from '@/components/Hero'
+import { FloatingNav } from '@/components/ui/FloatingNav'
 import React from 'react'
 
 const page = () => {
@@ -7,7 +9,7 @@ const page = () => {
       <div className="max-w-7xl w-full">
         {/* <FloatingNav navItems={navItems} /> */}
         <Hero />
-        {/* <Grid /> */}
+        <Grid />
         {/* <RecentProjects /> */}
         {/* <Clients /> */}
         {/* <Experience /> */}
