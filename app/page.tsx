@@ -1,5 +1,7 @@
+import Clients from '@/components/Clients'
 import Grid from '@/components/Grid'
 import Hero from '@/components/Hero'
+import RecentProjects from '@/components/RecentProjects'
 import { FloatingNav } from '@/components/ui/FloatingNav'
 import { navItems } from '@/data'
 
@@ -10,8 +12,8 @@ const page = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
-        {/* <RecentProjects /> */}
-        {/* <Clients /> */}
+        <RecentProjects />
+        <Clients />
         {/* <Experience /> */}
         {/* <Approach /> */}
         {/* <Footer /> */}
